@@ -1,0 +1,22 @@
+{
+    "name": "irap/http",
+    "type": "library",
+    "description": "A package to make error codes easier.",
+    "keywords": ["http-error-codes", "awesome"],
+    "homepage": "http://gitlab.irap.org/Page/package-awesome-http-codes",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "iRAP Admin",
+            "email": "it.admin@irap.org"
+        }
+    ],
+    "require": {
+        "php": ">=7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "iRAP\\Http\\": "src/"
+        }
+    }
+}

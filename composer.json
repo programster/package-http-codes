@@ -1,5 +1,5 @@
 {
-    "name": "irap/http",
+    "name": "irap/http-codes",
     "type": "library",
     "description": "A package to make error codes easier.",
     "keywords": ["http-error-codes", "awesome"],

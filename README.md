@@ -5,6 +5,12 @@ To use this package of defines you need to manually include the
 
 ## Usage
 
+Download this package into your project with the command:
+```
+composer require irap/http-codes
+```
+
+
 Below is an example of using the package to return a 404 JSON response for an API request.
 
 ```php
@@ -19,6 +25,7 @@ $body = array(
 header('Content-Type: application/json');
 die(json_encode($body));
 ```
+
 
 Alternatively...
 

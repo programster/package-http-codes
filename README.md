@@ -1,5 +1,8 @@
-Awesome HTTP Codes Package
-==========================
+HTTP Response Status Codes PHP Package
+======================================
+
+This is a PHP package providing an enum for the various HTTP response codes
+[as found on Wikipedia](https://en.wikipedia.org/wiki/List_of_HTTP_status_codes).
 
 ## Install
 

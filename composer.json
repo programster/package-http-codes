@@ -1,22 +1,26 @@
 {
-    "name": "irap/http-codes",
+    "name": "programster/http-codes",
     "type": "library",
-    "description": "A package to make error codes easier.",
-    "keywords": ["http-error-codes", "awesome"],
-    "homepage": "http://gitlab.irap.org/Page/package-awesome-http-codes",
+    "description": "A package to make HTTP status codes easier.",
+    "keywords": ["http", "error", "status", "codes"],
+    "homepage": "https://github.com/programster/package-http-codes",
     "license": "MIT",
     "authors": [
+        {
+            "name": "Stuart Page",
+            "email": "sdpagent@gmail.com"
+        },
         {
             "name": "iRAP Admin",
             "email": "it.admin@irap.org"
         }
     ],
     "require": {
-        "php": ">=7.0"
+        "php": ">=8.1"
     },
     "autoload": {
         "psr-4": {
-            "iRAP\\Http\\": "src/"
+            "Programster\\Http\\": "src/"
         }
     }
 }
